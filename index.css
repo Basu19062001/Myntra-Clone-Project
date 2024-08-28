@@ -147,6 +147,9 @@ header{
     cursor: pointer;
     line-height: normal;
 }
+.footer_columns a:active{
+    color: #ff3f6c;
+}
 .copyright{
     flex: 1;
     color: #94969f;
