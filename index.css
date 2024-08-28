@@ -11,6 +11,7 @@ header{
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid rgb(164, 155, 155);
+    /* position: fixed; */
 }
 .myntra_home{
     height: 28px;
@@ -72,6 +73,7 @@ header{
     border-radius: 0px 4px 4px 0px;
 }
 .Actions_bar{
+    float: right;
     display: flex;
     min-width: 150px;
     justify-content: space-evenly;
@@ -98,4 +100,21 @@ header{
 .banner_image{
     width: 100%;
 }
+.categories_heading{
+    text-transform: uppercase;
+    color: #3e4152;
+    letter-spacing: .15em;
+    font-size: 1.8em;
+    margin: 50px 0 10px 30px;
+    max-height: 5em;
+    font-weight: 700;
+}
 
+.categories_items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.sale_items{
+    width: 190px;
+}
