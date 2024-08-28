@@ -8,10 +8,12 @@ header{
     display: flex;
     background-color: #ffffff;
     height: 55px;
+    width: 100%;
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid rgb(164, 155, 155);
-    /* position: fixed; */
+    position: fixed;
+    margin-top: -40px;
 }
 .myntra_home{
     height: 28px;
@@ -116,5 +118,39 @@ header{
     justify-content: space-evenly;
 }
 .sale_items{
-    width: 190px;
+    width: 150px;
 }
+
+/* Footer sections started */
+.footer_container{
+    padding: 30px 0px 40px 0px;
+    background: #FAFBFC;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer_columns{
+    display: flex;
+    flex-direction: column;
+}
+.footer_columns h3{
+    text-decoration: none;
+    color: #282c3f;
+    font-size: 14px;
+    margin-bottom: 25px;
+}
+.footer_columns a{
+    color: #696b79;
+    font-size: 15px;
+    text-decoration: none;
+    padding-bottom: 5px;
+    cursor: pointer;
+    line-height: normal;
+}
+.copyright{
+    flex: 1;
+    color: #94969f;
+    text-align: end;
+    padding: 15px;
+}
+
