@@ -91,4 +91,11 @@ header{
     color: #ff3f6c;
 }
 
+/* Main Section Started */
+.banner_container{
+    margin: 40px 0px;
+}
+.banner_image{
+    width: 100%;
+}
 
