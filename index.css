@@ -13,7 +13,7 @@ header{
     align-items: center;
     border-bottom: 1px solid rgb(164, 155, 155);
     position: fixed;
-    margin-top: -40px;
+    margin-top: -90px;
 }
 .myntra_home{
     height: 28px;
@@ -97,7 +97,7 @@ header{
 
 /* Main Section Started */
 .banner_container{
-    margin: 40px 0px;
+    margin: 90px 0px 40px 0px;
 }
 .banner_image{
     width: 100%;
