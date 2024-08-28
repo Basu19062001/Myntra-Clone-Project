@@ -10,16 +10,17 @@ header{
     height: 55px;
     justify-content: space-between;
     align-items: center;
+    border-bottom: 1px solid rgb(164, 155, 155);
 }
 .myntra_home{
     height: 28px;
     width: 42px;
 }
 .logo_container{
-    margin-left: 1.8%;
+    margin-left: 3%;
 }
 .Actions_bar{
-    margin-right: 1.8%;
+    margin-right: 1%;
 }
 .nav_bar{
     display: flex;
@@ -29,28 +30,34 @@ header{
 }
 .nav_bar a{
     text-decoration: none;
-    font-size: 12px;
-    letter-spacing: .3px;
+    font-size: 8px;
+    letter-spacing: .2px;
     color: #282c3f;
     font-weight: 700;
     text-transform: uppercase;
+    padding: 20px 0px;
+    
+    border-bottom: 2px solid #ffffffff;
+}
+.nav_bar a:hover{
+    border-bottom: 2px solid #ff3f6c;
 }
 .nav_bar a sup{
-    font-size: 8px;
+    font-size: 6px;
     color: #ff3f6c; 
 }
 
 .search_bar{
-    height: 40px;
-    min-width: 300px;
+    height: 35px;
+    min-width: 200px;
+    width: 30%;
     display: flex;
     align-items:center;
 }
 .search_icon{
     box-sizing: content-box;
     height: 20px;
-    padding: 10px;
-    
+    padding: 5px;
     background-color: #f5f5f6;
     color: #282c3f;
     font-weight: 300;
@@ -60,21 +67,28 @@ header{
     color: #696e79;
     background-color: #f5f5f6;
     flex-grow: 1;
-    height: 40px;
+    height: 30px;
     border: 0;
     border-radius: 0px 4px 4px 0px;
 }
 .Actions_bar{
     display: flex;
-    min-width: 200px;
+    min-width: 150px;
     justify-content: space-evenly;
 }
-.action_container{
+.action_container a{
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-decoration: none;
+    color: #000000;
 }
-.action_icon{
-    font-size: 11px;
+.action_name{
+    font-size: 7px;
+    font-weight: 700;
 }
+.action_container a #wishlist:active{
+    color: #ff3f6c;
+}
+
 
